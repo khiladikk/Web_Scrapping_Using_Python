@@ -1,5 +1,7 @@
 Program Specification>>
 
-Write a Python code to Scrap data from ICC Ranking's page and get the ranking table for ODI's (Men).  Create a DataFrame using pandas to store the information. 
+Write a Python code to Scrap data from ICC Ranking's page and get the ranking table for ODI's (Men).  
+
+Create a DataFrame using pandas to store the information. 
 
 [Link>> https://www.icc-cricket.com/rankings/mens/team-rankings/odi]
