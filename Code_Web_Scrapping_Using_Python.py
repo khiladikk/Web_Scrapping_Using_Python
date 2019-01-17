@@ -19,7 +19,7 @@ html = BeautifulSoup(page, "lxml")
 
 table = html.find('table',{'class':'table'})
 
-print table
+print(table)
 
 
 #Generate Lists
@@ -43,4 +43,4 @@ ranking_data = OrderedDict(zip(team_ranking,[A,B,C,D]))
 
 data = pd.DataFrame(ranking_data) 
 
-print data
+print(data)
