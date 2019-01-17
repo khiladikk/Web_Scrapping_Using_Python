@@ -16,5 +16,14 @@ You will need to install only these packages:
 ## Installing these dependencies with pip:
 
 ```
-pip install requests BeautifulSoup4
+pip install requests 
+pip install BeautifulSoup4
+pip install urllib2
 ```
+## Steps to follow for scraping:
+
+1. Import necessary libraries.
+2. Use function “prettify” to look at nested structure of HTML page.
+3. Work with HTML tags.
+4. Find the right table.
+5. Extract the information to DataFrame.
